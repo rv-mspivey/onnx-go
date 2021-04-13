@@ -1,8 +1,9 @@
 # Workshop Demo README
-1. git clone git@github.com:rv-mspivey/onnx-go.git
-2. cd examples/emotions
-3. In terminal run: go run main.go -model model/emotion-ferplus-8.onnx -input grayphoto1.png
-4. In terminal run: go run main.go -model model/emotion-ferplus-8.onnx -input grayphoto2.png
+1. I'm using go1.16 to run this project
+2. git clone git@github.com:rv-mspivey/onnx-go.git and cd to the project
+3. cd examples/emotions
+4. In terminal run: go run main.go -model model/emotion-ferplus-8.onnx -input grayphoto1.png
+5. In terminal run: go run main.go -model model/emotion-ferplus-8.onnx -input grayphoto2.png
 
 There's already a grayphoto1.png and graphoto2.png that is 64x64 pixels grayscale. The main.go has a commented out 
 section of code that convert other 64x64 PNGs that you have to grayscale if you want.
